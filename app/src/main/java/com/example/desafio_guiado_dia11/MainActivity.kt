@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = getViewBinding()
         setContentView(binding.root)
 
-
+//pruebas de git
 
         adapter = ContactAdapter(dummyData())
         binding.rvContact.layoutManager = LinearLayoutManager(this)
